@@ -55,15 +55,15 @@ export default function UserForm(props) {
           type="checkbox"
           name="terms_of_service"
           onChange={onChange}
-          value={values.terms_of_service}
+          checked={values.terms_of_service}
         />
       </label>
       <div className="errors">
-        {/* 🔥 RENDER THE VALIDATION ERRORS HERE */}
-        <div>{errors.username}</div>
+        <div>{errors.first_name}</div>
+        <div>{errors.last_name}</div>
         <div>{errors.email}</div>
-        <div>{errors.role}</div>
-        <div>{errors.civil}</div>
+        <div>{errors.password}</div>
+        <div>{errors.terms_of_service}</div>
       </div>
       <button disabled={disabled}>Submit</button>
     </form>

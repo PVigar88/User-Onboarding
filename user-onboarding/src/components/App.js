@@ -18,6 +18,7 @@ const initialFormErrors = {
   last_name: "",
   email: "",
   password: "",
+  terms_of_service: false,
 };
 const initialUsers = [];
 const initialDisabled = true;

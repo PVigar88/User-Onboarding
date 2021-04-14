@@ -10,7 +10,7 @@ export default function User(props) {
   return (
     <div className="user container">
       <h2>
-        {details.first_name}&nbs;{details.last_name}
+        {details.first_name} &nbsp; {details.last_name}
       </h2>
       <p>Email: {details.email}</p>
     </div>
